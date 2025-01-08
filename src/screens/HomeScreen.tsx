@@ -1,8 +1,8 @@
 import React from "react";
 import { SafeAreaView, StyleSheet } from "react-native";
-import ProductList from "./src/components/ProductList";
+import ProductList from "../components/ProductList";
 
-const App: React.FC = () => {
+const HomeScreen: React.FC = () => {
   return (
     <SafeAreaView style={styles.container}>
       <ProductList />
@@ -17,4 +17,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default HomeScreen;
