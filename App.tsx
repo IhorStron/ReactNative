@@ -1,11 +1,11 @@
 import React from "react";
 import { SafeAreaView, StyleSheet } from "react-native";
-import ProductList from "./src/components/ProductList";
+import HomeScreen from "./src/components/ProductList";
 
 const App: React.FC = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <ProductList />
+      <HomeScreen />
     </SafeAreaView>
   );
 };
